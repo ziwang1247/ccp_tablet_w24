@@ -16,7 +16,7 @@ body{
 #skip-to-main-content:focus {
     left:10px;
     top: 1px;
-    z-index: 1;
+    z-index: 2;
   }
 
 a{
@@ -38,6 +38,7 @@ a{
         bottom: 2%;
         left: 50%;
         transform: translate(-50%, 0);
+        z-index: 1;
     }
     
     #nav-bar{
@@ -180,7 +181,7 @@ a{
     }
 
     p{
-        font-size: 20px;
+        column-count: 2;
     }
 
     .ingredients-container{
@@ -229,6 +230,7 @@ a{
         font-size: 30px;
         font-weight: bold;
         line-height: 1.2;
+        column-count: 1;
     }
 
     .title-image{
@@ -276,7 +278,7 @@ a{
         }
         50% {
             border-radius: 50%;
-            width:30%;
+            width:60%;
         }
         100% {
           border-radius: 0;
@@ -285,7 +287,7 @@ a{
 
       .title-image{
         animation-name: title-image;
-        animation-duration: 10s;
+        animation-duration: 20s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: .5s;
